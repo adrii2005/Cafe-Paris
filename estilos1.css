@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chango&family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&family=McLaren&family=Monoton&family=Oswald:wght@200..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+body {
+    background-image: url("descarga.jpeg");
+    padding-left: 20px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: "Parisienne", cursive;
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+}
+#eslogan {
+    font-family: "Caveat", serif;
+    font-style: italic;
+    font-size: 2em;
+    color: cornsilk;
+    border: 2px solid cornsilk ;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+h2 {
+    color: #FFE4C4;
+    font-family: "Pacifico", serif;
+}
+a {
+    font-size: 1.5em;
+    font-family: "Pacifico", serif;
+    text-decoration: none;
+}
+
+#logocafe {
+    border-radius: 50%;
+
+}
+#contenedor-logo {
+    text-align: center;
+}
+ul, li {
+    color: white;
+}
+a:link {
+    color: white;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    color: darkgoldenrod;
+}
+.texto-normal{
+    font-family: "Satisfy", serif;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    line-height: 2;
+
+}
+.categoria {
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+table, td, th {
+    border: 3px solid darkgoldenrod;
+    border-collapse: collapse;
+    vertical-align: center;
+    width: 50%;
+    padding: 20px;
+}
+table {
+    background-color: cornsilk;
+    font-family: "Satisfy", serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+.fotocarta {
+    width: 200px;
+    height: 200px;
+}

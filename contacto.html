@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo2.css" type="text/css">
+</head>
+<body>
+    <h1>
+        Cafe Paris
+    </h1>
+    <p id="eslogan">
+        Un momento de relax
+    </p>
+
+    <p>
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="carta.html">Nuestra Carta</a></li>
+            <li><a href="contacto.html">Contacte con nosotros</a></li>
+        </ul>
+    </p>
+    <h2>
+        Contacte con Nosotros
+    </h2>
+    <form action="procesacontacto.php" method="get">
+    
+        
+        <p>
+        <label for="Nom">Nombre y Apellidos: </label>
+        <input type="text" id="Nom" required placeholder="Escriba su nombre y apellido">
+        </p>
+        <p>
+            <label for="Fech">Fecha de Nacimiento: </label>
+            <input type="date" id="Fech" required>
+        </p>
+        <p>
+            <label for="suek">Suele consumir:</label>
+            <input type="radio" id="ca" name="sue">
+            <label for="caf">Cafe</label>
+            <input type="radio" id="t" name="sue">
+            <label for="t">Te</label>
+            <input type="radio" id="am" name="sue">
+            <label for="am">Ambos</label>
+            
+        </p>
+        <p>
+            <label for="num">Numero de cafes al dia: </label>
+            <input type="number" name="" id="num" maxlength="5" minlength="1">
+        </p>
+        <p>
+            <label for="sele">Seleccione su cafeteria: </label>
+            <select name="" id="sele">
+                <option selected value="">Madrid</option>
+                <option value="">Barcelona</option>
+                <option value="">Sevilla</option>
+            </select>
+        </p>
+        <p>
+            <input type="radio" name="" id="des" checked>
+            <label for="des">Deseo de recibir informacion sobre novedades y ofertas</label>
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
